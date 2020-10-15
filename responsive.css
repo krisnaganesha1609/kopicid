@@ -1,0 +1,111 @@
+
+@media all and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+    }
+    .header-list {
+       display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 28px;
+        margin-right: 40px;
+    }
+
+    .mulai{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .logo {
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+
+    .fb {
+        height: 40px;
+        width: 40px;
+    }
+    .ig {
+        height: 40px;
+        width: 40px;
+    }
+    .tweet {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media all and (max-width: 678px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .header-logo h1 {
+        font-size: 20px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 20px;
+        margin-right: 24px;
+    }
+
+    .mulai{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .mulai:hover{
+        font-size: 19px;
+    }
+
+    .top-wrapper h1{
+        font-size: 12px;
+    }
+
+    .top-wrapper h2{
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    .top-wrapper h3{
+        font-size: 18px;
+    }
+    .heading h2{
+        font-size: 13px;
+    }
+    .medsos-title{
+        font-size: 13px;
+    }
+    .list-link{
+        font-size: 10px;
+    }
+    .list {
+        margin-top: 3px;
+    }
+
+    .logo {
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+
+    .fb {
+        height: 40px;
+        width: 40px;
+    }
+    .ig {
+        height: 40px;
+        width: 40px;
+    }
+    .tweet {
+        height: 40px;
+        width: 40px;
+    }
+}

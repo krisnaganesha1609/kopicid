@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.header-logo{
+    float: left;
+}
+.header-logo h1{
+    letter-spacing: 10px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-family: "Lucida Handwriting";
+}
+
+.header-list{
+    float: right;
+}
+.header-list li{
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    display: none;
+  }
+
+.menu1{
+    color: white;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-right: 2px;
+    text-decoration: none;
+}
+.menu1:hover{
+    opacity: 1;
+    transition: 0.1s;
+    border: black solid 2px;
+    text-decoration: none;
+}
+.menu2{
+    
+    color: white;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-right: 0px;
+    text-decoration: none;
+}
+.menu2:hover{
+    opacity: 1;
+    transition: 0.1s;
+    border: black solid 2px;
+    text-decoration: none;
+}
+.top-wrapper{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    height: 720px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1020%2F1629%2Ffiles%2Fpatrick-tomasso-GXXYkSwndP4-unsplash_1024x1024.jpg%3Fv%3D1585235754%26format%3Djpg&f=1&nofb=1%7D);
+    background-size: cover;
+}
+.top-wrapper h1{
+    letter-spacing: 15px;
+    font-size: 50px;
+    text-shadow: 2px 3px 1px black;
+}
+
+.top-wrapper h3{
+    font-family: "Comic Sans MS", cursive;
+    font-size: 85px;
+    letter-spacing: 10px;
+    font-weight: light;
+    padding-bottom: 80px;
+    font-style: italic;
+    text-shadow: 2px 3px 1px black;
+}
+.mulai{
+    border: 4px solid white;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    letter-spacing: 10px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    opacity: 0.9;
+    text-decoration: none;
+    z-index: 5;
+}
+.mulai:hover{
+    opacity: 1;
+    transition: 0.1s;
+    border: #240B36 solid 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu-wrapper {
+    height: 800px;
+}
+
+.heading h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.menus {
+    text-align: center;
+}
+
+.icon {
+    width: 100%;
+}
+
+footer{
+    height: 180px;
+    background-color: #E6E6E6;
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    padding-bottom: 10px;
+    list-style: none;
+    padding-right: 40px;
+    font-size: 18px;
+    padding-top: 13px;
+    letter-spacing: 2px;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+}
+.list{
+    margin-top: 10px;
+}
+.list-link{
+    color: black;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.list-link:hover{
+    opacity: 1;
+    transition: 0.1s;
+    border: black solid 2px;
+    text-decoration: none;
+}
+.medsos-title{
+    color: black;
+    padding-left: 12px;
+    padding-top: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+.logo{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.ig{
+    height: 40px;
+    width: 40px;
+    margin-left: 35px;
+    opacity: 0.7;;
+}
+.ig:hover{
+    opacity: 1;;
+    transition: 0.5s;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+    opacity: 0.7;
+}
+.fb:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.tweet{
+    height: 40px;
+    width: 40px;
+    opacity: 0.7;
+}
+.tweet:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
